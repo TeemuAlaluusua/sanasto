@@ -49,7 +49,7 @@ notes:
 sources:
 - lang: fi
   label: RYHTI-sanasto
-  uri: https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/
+  url: https://ryhti.syke.fi/ohjeet-ja-tuki/ryhti-sanasto/
 relations:
   broader:
   - objekti

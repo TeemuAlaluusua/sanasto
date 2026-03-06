@@ -1,6 +1,6 @@
 id: alfanumeerinen
-status: Luonnos
-schemeId: IT
+status: []
+schemeId: []
 
 terms:
 - lang: fi
@@ -18,14 +18,15 @@ terms:
 
 definitions:
 - lang: fi
-  text: Aakkosista (A–Z) ja numeroista (0–9) koostuva tai niitä sisältävä merkistö, koodi tai tieto. Vastakohtana pelkästään aakkosellinen tai pelkästään numeerinen.
+  text: |
+    Aakkosista (A–Z) ja numeroista (0–9) koostuva tai niitä sisältävä merkistö, koodi tai tieto. Vastakohtana pelkästään aakkosellinen tai pelkästään numeerinen.
 
 notes:
 - lang: fi
   text: Alfanumeerinen ei sisällä välimerkkejä tai erikoismerkkejä; jos myös niitä sallitaan, puhutaan esimerkiksi alfanumeerisesta ja erikoismerkkejä sisältävästä merkkijonosta tai laajennetusta merkistöstä.
 
 sources:
-- lang: en
+- lang: 
   label: ISO/IEC 19762:2025 Information technology — Automatic identification and data capture techniques — Harmonized vocabulary
   url:
 
