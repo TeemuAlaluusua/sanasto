@@ -7,7 +7,7 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/betk/sanasto/rakentamisen-tieto-ja-informaatiomallit",
+      "@id": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
       "@type": "skos:ConceptScheme",
       "skos:prefLabel": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     {
-      "@id": "https://w3id.org/betk/sanasto/#/concept/alavirta",
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/alavirta",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://w3id.org/betk/sanasto/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
       "skos:prefLabel": [
         {
           "@value": "alavirta",
@@ -53,7 +53,7 @@
         }
       ],
       "skos:related": [
-        "https://w3id.org/betk/sanasto/ylävirta"
+        "https://teemualaluusua.github.io/sanasto1/ylävirta"
       ],
       "dcterms:created": {
         "@value": "2026-02-24T17:35",
@@ -65,9 +65,9 @@
       }
     },
     {
-      "@id": "https://w3id.org/betk/sanasto/#/concept/alfanumeerinen",
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/alfanumeerinen",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://w3id.org/betk/sanasto/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
       "skos:prefLabel": [
         {
           "@value": "alfanumeerinen",
@@ -115,9 +115,9 @@
       }
     },
     {
-      "@id": "https://w3id.org/betk/sanasto/#/concept/alkuperäisformaatti",
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/alkuperäisformaatti",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://w3id.org/betk/sanasto/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
       "skos:prefLabel": [
         {
           "@value": "alkuperäisformaatti",
@@ -185,8 +185,8 @@
         }
       ],
       "skos:related": [
-        "https://w3id.org/betk/sanasto/natiiviformaatti",
-        "https://w3id.org/betk/sanasto/natiivimalli"
+        "https://teemualaluusua.github.io/sanasto1/natiiviformaatti",
+        "https://teemualaluusua.github.io/sanasto1/natiivimalli"
       ],
       "dcterms:created": {
         "@value": "2026-02-24T17:35",
@@ -198,9 +198,9 @@
       }
     },
     {
-      "@id": "https://w3id.org/betk/sanasto/#/concept/anturi",
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/anturi",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://w3id.org/betk/sanasto/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
       "skos:prefLabel": [
         {
           "@value": "anturi",
@@ -243,15 +243,6 @@
           "@language": "en"
         }
       ],
-      "dcterms:source": [
-        {
-          "@language": "fi"
-        }
-      ],
-      "skos:related": [
-        "https://w3id.org/betk/sanasto/mittalaite",
-        "https://w3id.org/betk/sanasto/IoT-laite"
-      ],
       "dcterms:created": {
         "@value": "2026-02-24T17:35",
         "@type": "xsd:dateTime"
@@ -262,9 +253,9 @@
       }
     },
     {
-      "@id": "https://w3id.org/betk/sanasto/#/concept/arvoketju",
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/arvoketju",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://w3id.org/betk/sanasto/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
       "skos:prefLabel": [
         {
           "@value": "arvoketju",
@@ -315,8 +306,8 @@
         }
       ],
       "skos:related": [
-        "https://w3id.org/betk/sanasto/toimitusketju",
-        "https://w3id.org/betk/sanasto/liiketoimintaprosessi"
+        "https://teemualaluusua.github.io/sanasto1/toimitusketju",
+        "https://teemualaluusua.github.io/sanasto1/liiketoimintaprosessi"
       ],
       "dcterms:created": {
         "@value": "2026-02-24T17:35",
@@ -328,9 +319,9 @@
       }
     },
     {
-      "@id": "https://w3id.org/betk/sanasto/#/concept/asiakastilauksen-kytkeytymiskohta",
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/asiakastilauksen-kytkeytymiskohta",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://w3id.org/betk/sanasto/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
       "skos:prefLabel": [
         {
           "@value": "asiakastilauksen kytkeytymiskohta",
@@ -385,12 +376,12 @@
         }
       ],
       "skos:broader": [
-        "https://w3id.org/betk/sanasto/toimitusketju"
+        "https://teemualaluusua.github.io/sanasto1/toimitusketju"
       ],
       "skos:related": [
-        "https://w3id.org/betk/sanasto/arvoketju",
-        "https://w3id.org/betk/sanasto/tilausohjautuva tuotanto",
-        "https://w3id.org/betk/sanasto/ennusteohjautuva tuotanto"
+        "https://teemualaluusua.github.io/sanasto1/arvoketju",
+        "https://teemualaluusua.github.io/sanasto1/tilausohjautuva tuotanto",
+        "https://teemualaluusua.github.io/sanasto1/ennusteohjautuva tuotanto"
       ],
       "dcterms:created": {
         "@value": "2026-02-24T17:35",
@@ -402,9 +393,9 @@
       }
     },
     {
-      "@id": "https://w3id.org/betk/sanasto/#/concept/ato",
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/ato",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://w3id.org/betk/sanasto/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
       "skos:prefLabel": [
         {
           "@value": "ATO",
@@ -460,13 +451,13 @@
         }
       ],
       "skos:broader": [
-        "https://w3id.org/betk/sanasto/tuotanto-ja-toimitusstrategia"
+        "https://teemualaluusua.github.io/sanasto1/tuotanto-ja-toimitusstrategia"
       ],
       "skos:related": [
-        "https://w3id.org/betk/sanasto/asiakastilauksen-kytkeytymiskohta",
-        "https://w3id.org/betk/sanasto/mto",
-        "https://w3id.org/betk/sanasto/mts",
-        "https://w3id.org/betk/sanasto/eto"
+        "https://teemualaluusua.github.io/sanasto1/asiakastilauksen-kytkeytymiskohta",
+        "https://teemualaluusua.github.io/sanasto1/mto",
+        "https://teemualaluusua.github.io/sanasto1/mts",
+        "https://teemualaluusua.github.io/sanasto1/eto"
       ],
       "dcterms:created": {
         "@value": "2026-02-24T17:35",

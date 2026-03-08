@@ -36,17 +36,15 @@ definitions:
     A sensor is a device that responds to a physical stimulus such as heat, light,
     sound, pressure, gravity or motion and transmits its value onward. Sensors are
     used, for example, in various IoT solutions.
+    
 notes: []
-sources:
-- lang: fi
-  label: ''
-  uri:
+
+sources: []
+
 relations:
   broader: []
   narrower: []
-  related:
-  - mittalaite
-  - IoT-laite
+  related: []
 metadata:
   created: 2026-02-24T17:35
   modified: 2026-02-27T00:00
