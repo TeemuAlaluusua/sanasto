@@ -1,9 +1,6 @@
 schemes:
-  - id: rakentamisen-tieto-ja-informaatiomallit
+  - id: sanasto
     baseUri: https://teemualaluusua.github.io/sanasto1/
     status: []
-    prefLabel:
-      fi: "Rakentamisen tieto- ja informaatiomallien sanasto"
-      sv: "Ordlista för data- och informationsmodeller inom byggande"
-      en: "Glossary of Data and Information Models in Construction"
-    languages: [fi, sv, en]
+    prefLabel:[]
+    languages: []
