@@ -56,8 +56,6 @@ th{background:#f9fafb;text-align:left}
       <button class="dropbtn">Export</button>
       <div class="dropdown-content">
         <div onclick="exportJSONLD()">JSON-LD</div>
-        <div onclick="exportTTL()">SKOS Turtle</div>
-        <div onclick="exportRDF()">RDF/XML</div>
       </div>
     </div>
   </div>
@@ -357,9 +355,14 @@ window.addEventListener("hashchange",openFromHash);
 document.getElementById("search").addEventListener("input",renderList);
 
 /* EXPORT */
-function exportJSONLD(){window.open("sanasto.jsonld");}
-function exportTTL(){alert("TTL export not configured");}
-function exportRDF(){alert("RDF export not configured");}
+function exportJSONLD(){
+  const a = document.createElement("a");
+  a.href = "sanasto.jsonld";
+  a.download = "sanasto.jsonld";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
 </script>
 
 </body>

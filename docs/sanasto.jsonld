@@ -7,11 +7,11 @@
   },
   "@graph": [
     {
-      "@id": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "@id": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "@type": "skos:ConceptScheme",
       "skos:prefLabel": [
         {
-          "@value": "rakentamisen-tieto-ja-informaatiomallit",
+          "@value": "sanasto",
           "@language": "fi"
         }
       ]
@@ -19,7 +19,7 @@
     {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/alavirta",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
           "@value": "alavirta",
@@ -67,7 +67,7 @@
     {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/alfanumeerinen",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
           "@value": "alfanumeerinen",
@@ -117,7 +117,7 @@
     {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/alkuperäisformaatti",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
           "@value": "alkuperäisformaatti",
@@ -200,7 +200,7 @@
     {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/anturi",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
           "@value": "anturi",
@@ -255,7 +255,7 @@
     {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/arvoketju",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
           "@value": "arvoketju",
@@ -321,7 +321,7 @@
     {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/asiakastilauksen-kytkeytymiskohta",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
           "@value": "asiakastilauksen kytkeytymiskohta",
@@ -395,7 +395,7 @@
     {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/ato",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
           "@value": "ATO",
