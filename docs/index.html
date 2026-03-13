@@ -234,14 +234,15 @@ function renderList(){
 
 /* VIEW */
 function renderConcept(id){
-  const c=concepts[map[id]];
+  const c = concepts[map[id]];
   if(!c) return;
 
-  const t=UI[currentLang];
-  const label=term(c)?.label||id;
+  const t = UI[currentLang];
+  const label = term(c)?.label || id;
 
   const order = LANG_ORDER[currentLang] || ["fi","sv","en"];
-  const termsRows=[...c.terms]
+
+  const termsRows = [...c.terms]
   .sort((a,b)=>order.indexOf(a.lang) - order.indexOf(b.lang))
   .map(tr=>`
     <tr>
