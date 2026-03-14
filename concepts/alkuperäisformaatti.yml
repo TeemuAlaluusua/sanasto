@@ -1,6 +1,7 @@
 id: alkuperäisformaatti
 status: []
 schemeId: []
+
 terms:
 - lang: fi
   label: alkuperäisformaatti
@@ -29,6 +30,7 @@ terms:
 - lang: en
   label: proprietary format
   type: Synonyymi
+
 definitions:
 - lang: fi
   text: |
@@ -44,7 +46,9 @@ definitions:
     The file format specific to a particular modelling software used for the
     model’s native storage. In the construction industry, the terms native model
     or native format are also used as synonyms.
+
 notes: []
+
 sources:
 - lang: fi
   label: BEC:2023 Elementtisuunnittelun mallinnusohje
@@ -52,12 +56,12 @@ sources:
 - lang: fi
   label: YTV:2012 Yleiset tietomallivaatimukset
   uri: https://wiki.buildingsmart.fi/fi/04_Julkaisut_ja_Standardit/YTV
+
 relations:
   broader: []
   narrower: []
   related:
-  - natiiviformaatti
-  - natiivimalli
+
 metadata:
   created: 2026-02-24T17:35
   modified: 2026-02-27T00:00

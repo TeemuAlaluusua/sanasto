@@ -1,6 +1,7 @@
 id: asiakastilauksen-kytkeytymiskohta
 status: []
 schemeId: []
+
 terms:
 - lang: fi
   label: asiakastilauksen kytkeytymiskohta
@@ -23,6 +24,7 @@ terms:
 - lang: en
   label: order penetration point
   type: Synonyymi
+
 definitions:
 - lang: fi
   text: |
@@ -36,11 +38,13 @@ definitions:
   text: |
     The point in the supply chain where a product or service is linked to a specific
     customer order and operations shift from forecast-driven to order-driven.
+
 notes: []
 sources:
 - lang: fi
   label: Logistiikan maailma -termisanasto:2025
   uri: https://www.logistiikanmaailma.fi/aineistot/sanastot/logistiikan-maailma-termisanasto/
+
 relations:
   broader:
   - toimitusketju
@@ -49,6 +53,7 @@ relations:
   - arvoketju
   - tilausohjautuva tuotanto
   - ennusteohjautuva tuotanto
+  
 metadata:
   created: 2026-02-24T17:35
   modified: 2026-02-27T00:00

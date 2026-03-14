@@ -1,6 +1,7 @@
 id: anturi
 status: []
 schemeId: []
+
 terms:
 - lang: fi
   label: anturi
@@ -20,6 +21,7 @@ terms:
 - lang: en
   label: transducer
   type: Synonyymi
+
 definitions:
 - lang: fi
   text: |
@@ -45,6 +47,7 @@ relations:
   broader: []
   narrower: []
   related: []
+  
 metadata:
   created: 2026-02-24T17:35
   modified: 2026-02-27T00:00
