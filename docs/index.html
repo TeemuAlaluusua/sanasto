@@ -21,6 +21,16 @@ h1{margin:0 0 6px;font-size:24px}
 .infoLang{font-weight:600;margin-right:6px}
 .search{padding:6px 10px;border:1px solid #d1d5db;border-radius:6px}
 .dropdown{display:inline-block;margin-left:8px}
+.headerBtn{
+  padding:6px 10px;
+  border:1px solid #d1d5db;
+  border-radius:6px;
+  background:#fff;
+  text-decoration:none;
+  color:#111;
+  margin-right:8px;
+  font-size:14px;
+}
 .dropbtn{padding:6px 10px;border:1px solid #d1d5db;border-radius:6px;background:#fff;cursor:pointer}
 .dropdown-content{display:none;position:absolute;background:#fff;border:1px solid #d1d5db;border-radius:6px}
 .dropdown:hover .dropdown-content{display:block}
@@ -39,7 +49,11 @@ th{background:#f9fafb;text-align:left}
 <body>
 
 <header>
-  <div>Sanasto</div>
+  <div>
+    <a href="#" onclick="location.hash='';renderHome();return false;" class="headerBtn">
+Etusivu
+</a>
+  </div>
   <div>
     <input id="search" class="search" placeholder="Search">
 
