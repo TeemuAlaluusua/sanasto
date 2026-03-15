@@ -441,13 +441,8 @@
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
-          "@value": "ATO",
+          "@value": "tilauksesta kokoonpano",
           "@language": "fi",
-          "termType": "Suositettava termi"
-        },
-        {
-          "@value": "ATO",
-          "@language": "sv",
           "termType": "Suositettava termi"
         },
         {
@@ -458,14 +453,19 @@
       ],
       "skos:altLabel": [
         {
+          "@value": "ATO",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
           "@value": "asiakasohjautuva kokoonpano",
           "@language": "fi",
           "termType": "Synonyymi"
         },
         {
-          "@value": "tilauksesta kokoonpano",
-          "@language": "fi",
-          "termType": "Synonyymi"
+          "@value": "ATO",
+          "@language": "sv",
+          "termType": "Lyhenne"
         },
         {
           "@value": "kundorderstyrd montering",
@@ -475,7 +475,7 @@
         {
           "@value": "ATO",
           "@language": "en",
-          "termType": "Synonyymi"
+          "termType": "Lyhenne"
         }
       ],
       "skos:definition": [
@@ -502,6 +502,10 @@
           "@value": "Peltokorpi 2020 Tuotetiedon hallinta ja hyödyntäminen",
           "@language": "fi",
           "@id": "https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf"
+        },
+        {
+          "@value": "ISO TR 3151-1",
+          "@language": "en"
         }
       ],
       "skos:broader": [
@@ -979,6 +983,92 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/cde",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "yhteinen tietoympäristö",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "gemensam datamiljö",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "common data environment",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "CDE",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "CDE",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "CDE",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Sovittu informaation lähde minkä tahansa projektin tai omaisuuskohteen\njokaisen informaatiokoosteen keräämiseksi, hallitsemiseksi ja\nlevittämiseksi hallinnoidun prosessin kautta.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "En överenskommen informationskälla för att samla in, hantera och\ndistribuera varje informationsmängd i ett projekt eller en tillgång\ngenom en kontrollerad process.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Agreed source of information for collecting, managing and\ndisseminating each information container through a managed process\nfor a given project or asset.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Yhteisen tietoympäristön työnkulku kuvaa käytettävät prosessit ja\nyhteisen tietoympäristön (CDE) sovellus voi tarjota näitä prosesseja\ntukevaa teknologiaa.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Arbetsflödet i den gemensamma datamiljön beskriver de processer\nsom används och CDE-applikationen kan erbjuda teknik som stöder\ndessa processer.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "The workflow of the common data environment describes the processes\nused and the CDE application can provide technology supporting\nthose processes.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "EN ISO 19650-1:2018"
+        },
+        {
+          "@value": "Suomi.fi terminologia – EN 19650",
+          "@id": [
+            "https://sanastot.suomi.fi/terminology/en19650/concept/concept-32"
+          ]
+        }
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/dataformaatti",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -1429,6 +1519,90 @@
       },
       "dcterms:modified": {
         "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/skos",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "simple knowledge organization system",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "simple knowledge organization system",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "simple knowledge organization system",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "SKOS",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "SKOS",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "SKOS",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Yleinen tietomalli, jonka avulla jaetaan ja linkitetään\ntietämysalkioita internetissä.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "En gemensam datamodell för att dela och länka\nkunskapsobjekt på internet.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Common data model for sharing and linking\nknowledge items via the internet.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "SKOS on W3C:n suositus sanastojen, tesaurusten ja\nluokitusjärjestelmien esittämiseen RDF-muodossa.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "SKOS är en W3C-rekommendation för att representera\ntesaurer, klassifikationssystem och andra vokabulärer i RDF.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "SKOS is a W3C recommendation used to represent\nthesauri, classification schemes and other vocabularies in RDF.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "SKOS Simple Knowledge Organization System Reference",
+          "@id": "https://www.w3.org/TR/skos-reference/"
+        },
+        {
+          "@value": "ISO 5127:2022"
+        }
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-05T12:00",
         "@type": "xsd:dateTime"
       }
     },
