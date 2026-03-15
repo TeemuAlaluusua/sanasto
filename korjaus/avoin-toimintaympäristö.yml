@@ -1,6 +1,6 @@
 id: avoin-toimintaympäristö
-status: Luonnos
-schemeId: rakentamisen-tieto-ja-informaatiomallit
+status: []
+schemeId: []
 terms:
 - lang: fi
   label: Avoin toimintaympäristö
@@ -11,17 +11,20 @@ terms:
 - lang: en
   label: ''
   type: Suositettava termi
+
 definitions:
 - lang: fi
   text: "Sovellus, johon riippumattomat osapuolet voivat vapaasti osallistua ja jossa\
     \ kahdenväliset järjestelyt eivät ole tarpeen. (kts. suljettu toimintaympäristö).\
-    \ \n\n**Lähteet:**\n[EN 1556:1998](https://sales.sfs.fi/fi/index/tuotteet/SFS/CEN/ID2/1/246564.html.stx)\n\
-    [Alaluusua, 2023](https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content)\n\
-    \n# B"
+
 notes: []
 sources:
+- lang: 
+  label: 
+  url: 
 - lang: fi
-  label: ''
+  label: Alaluusua, 2023
+  url: https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content
 relations:
   broader: []
   narrower: []

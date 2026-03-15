@@ -7,7 +7,7 @@ terms:
   label: ATO
   type: Suositettava termi
 - lang: fi
-  label: Suositettava termi
+  label: asiakasohjautuva kokoonpano
   type: Synonyymi
 - lang: fi
   label: tilauksesta kokoonpano
@@ -73,8 +73,8 @@ relations:
   narrower: []
   related:
   - asiakastilauksen-kytkeytymiskohta
-  - mto
   - mts
+  - mto
   - eto
 
 metadata:

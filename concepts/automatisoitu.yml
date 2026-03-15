@@ -1,6 +1,6 @@
 id: automatisoitu
-status: Luonnos
-schemeId: 
+status: []
+schemeId: []
 
 terms:
 - lang: fi
@@ -29,18 +29,20 @@ terms:
   
 definitions:
 - lang: fi
-  text: Prosessi tai järjestelmä, joka tietyissä olosuhteissa toimii ilman ihmisen
-    puuttumista.
-
-definitions:
+  text: |
+    Prosessi tai järjestelmä, joka tietyissä olosuhteissa toimii ilman ihmisen puuttumista.
+- lang: sv
+  text: |
+    process eller system som under angivna förhållanden fungerar utan mänsklig inblandning
 - lang: en
-  text: Pertaining to a process or system that, under specified conditions, functions without human intervention
+  text: |
+    Pertaining to a process or system that, under specified conditions, functions without human intervention
     
 notes: []
 
 sources:
 - lang: 
-  label: "ISO/IEC 22989:2023"
+  label: ISO/IEC 22989:2023
   uri:
   
 relations:
