@@ -1133,6 +1133,106 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/dto",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "asiakasohjautuva tuotekehitys",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "kundstyrd produktutveckling",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "design to order",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "DTO",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "DTO",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "DTO",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Tuotantotapa, jossa tuotteen suunnittelu, tuotekehitys ja\nvalmistus käynnistyvät asiakaskohtaisen tilauksen perusteella.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Produktionssätt där produktens konstruktion, produktutveckling\noch tillverkning inleds utifrån en kundspecifik beställning.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Production strategy in which product design, development\nand manufacturing are initiated based on a specific\ncustomer order.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "DTO-tuotteet ovat asiakasräätälöityjä projektituotteita,\njotka suunnitellaan ja valmistetaan tilauskohtaisesti.\nToisin kuin ETO-tuotteissa, DTO-toimitus voi sisältää\nmerkittävää tuotekehitystä, mikä yleensä pidentää\ntoimitusaikoja.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "DTO-produkter är kundanpassade projektprodukter som\nkonstrueras och tillverkas baserat på en specifik order.\nTill skillnad från ETO-produkter kan DTO-leveranser\ninkludera omfattande produktutveckling, vilket ofta\nleder till längre leveranstider.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "DTO products are typically customized project products\ndesigned and manufactured for a specific order.\nDeliveries may include significant product development,\nwhich often results in longer lead times.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "Alaluusua 2023",
+          "@language": "fi",
+          "@id": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content"
+        },
+        {
+          "@value": "Peltokorpi 2020",
+          "@language": "fi",
+          "@id": "https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf"
+        },
+        {
+          "@value": "ISO/TR 3151-1:2023",
+          "@language": "en",
+          "@id": "https://www.iso.org/"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/tuotantostrategia"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/ETO",
+        "https://teemualaluusua.github.io/sanasto1/MTO",
+        "https://teemualaluusua.github.io/sanasto1/ATO"
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/ebom",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -1344,6 +1444,528 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/GTIN-tunnus",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "GTIN-tunnus",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "kansainvälinen tuotenumero",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "GTIN",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Global Trade Item Number",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "standardi koodin ainutkertainen numero, jota käytetään kansainvälisesti tunnistamaan tuotteita ja pakkauksia",
+          "@language": "fi"
+        },
+        {
+          "@value": "unique number from a standard code used internationally to identify products and packaging units",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022"
+        }
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/iot",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "esineiden internet",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "sakernas internet",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "internet of things",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "IoT",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "IoT",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "IoT",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Infrastruktuuri, joka koostuu toisiinsa yhdistetyistä\nentiteeteistä, kuten kohdeyksiköistä, ihmisistä,\njärjestelmistä ja informaatioresursseista, sekä\npalveluista, jotka käsittelevät fyysisestä ja\nvirtuaalimaailmasta tulevaa informaatiota ja\nreagoivat siihen.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Infrastruktur som består av sammankopplade entiteter,\nsåsom enheter, människor, system och\ninformationsresurser, samt tjänster som behandlar\ninformation från den fysiska och virtuella världen\noch reagerar på den.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Infrastructure consisting of interconnected entities\nsuch as devices, people, systems and information\nresources, together with services that process and\nrespond to information originating from the physical\nand virtual world.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "IoT viittaa usein laitteiden ja koneiden\nyhdistämiseen internetiin sekä niiden tuottaman\ndatan hyödyntämiseen yhdessä muiden tietolähteiden\nkanssa.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "IoT avser ofta sammankoppling av maskiner och\nenheter till internet samt användning av data\nsom genereras av dessa tillsammans med andra\ndatakällor.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "IoT commonly refers to connecting devices and\nmachines to the internet and integrating the\ndata they generate with other data sources.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO/IEC 22989:2023",
+          "@language": "en",
+          "@id": "https://www.iso.org/standard/74296.html"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/verkko"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/anturi",
+        "https://teemualaluusua.github.io/sanasto1/sulautettu järjestelmä",
+        "https://teemualaluusua.github.io/sanasto1/big-data"
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/käsitemalli",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "käsitemalli",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "begreppsmodell",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "conceptual schema",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Tietomalli, joka määrittelee kohdealueen käsitteet\nja niiden väliset suhteet.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Informationsmodell som definierar begreppen\ni ett visst verksamhetsområde och relationerna\nmellan dem.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Model that defines the concepts of a universe\nof discourse and the relationships between them.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Käsitemalli kuvaa kohdealueen keskeiset käsitteet\nja niiden väliset suhteet riippumatta\ntietojärjestelmien teknisestä toteutuksesta.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "En begreppsmodell beskriver centrala begrepp i ett\nverksamhetsområde och relationerna mellan dem\noberoende av teknisk implementation.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "A conceptual schema describes the core concepts\nof a domain and the relationships between them\nindependent of technical implementation.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/tietomalli"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/ontologia",
+        "https://teemualaluusua.github.io/sanasto1/skeema",
+        "https://teemualaluusua.github.io/sanasto1/tietomalli"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/käsiteskeema",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "käsiteskeema",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "begreppsschema",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "conceptual schema",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Käsitemallin muodollinen kuvailu, joka esittää\nkohdealueen käsitteet, niiden ominaisuudet ja\nsuhteet rakenteisessa muodossa.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Formell beskrivning av en begreppsmodell som\nanger begrepp i ett visst område samt deras\negenskaper och relationer i strukturerad form.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Formal description of a conceptual model that\nspecifies the concepts of a domain together\nwith their properties and relationships.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Käsiteskeema esittää käsitemallin muodollisessa\nmuodossa ja sitä voidaan käyttää tietomallien\nsuunnittelun ja tietojärjestelmien kehittämisen\nlähtökohtana.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ett begreppsschema uttrycker en begreppsmodell\ni formell form och används ofta som grund för\nutveckling av informationsmodeller och\ninformationssystem.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "A conceptual schema expresses a conceptual model\nin a formalized structure and can serve as a basis\nfor designing information models and information\nsystems.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org/standard/59743.html"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/käsitemalli"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/tietomalli",
+        "https://teemualaluusua.github.io/sanasto1/ontologia",
+        "https://teemualaluusua.github.io/sanasto1/skeema"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/lokitiedosto",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "lokitiedosto",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "loggfil",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "log file",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "palvelimen automaattisesti luoma tiedosto, joka sisältää tietoa palvelimella tehdyistä toimenpiteistä",
+          "@language": "fi"
+        },
+        {
+          "@value": "fil som automatiskt skapas av en server och som innehåller information om aktiviteter som utförs på servern",
+          "@language": "sv"
+        },
+        {
+          "@value": "file automatically created by a server that maintains a record of its activities",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Lokitiedostoja käytetään järjestelmien valvontaan,\nvirheiden jäljittämiseen ja tietoturvatapahtumien\nanalysointiin.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Loggfiler används för övervakning av system,\nfelsökning och analys av säkerhetshändelser.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Log files are commonly used for system monitoring,\ntroubleshooting and security auditing.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/käsitemalli"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/tietomalli",
+        "https://teemualaluusua.github.io/sanasto1/ontologia"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-15T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/malli",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "malli",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "modell",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "model",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Fyysinen, matemaattinen tai muuten looginen esitys\njärjestelmästä, entiteetistä, ilmiöstä, prosessista\ntai datasta.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Fysisk, matematisk eller på annat sätt logisk\nrepresentation av ett system, en entitet, ett\nfenomen, en process eller data.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Physical, mathematical or otherwise logical\nrepresentation of a system, entity, phenomenon,\nprocess or data.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Mallia käytetään kohteen kuvaamiseen, analysointiin,\nsimulointiin tai suunnitteluun.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "En modell används för att beskriva, analysera,\nsimulera eller planera ett system eller fenomen.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "A model is commonly used to describe, analyze,\nsimulate or design a system or phenomenon.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO/IEC 22989:2023",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        }
+      ],
+      "skos:narrower": [
+        "https://teemualaluusua.github.io/sanasto1/käsitemalli",
+        "https://teemualaluusua.github.io/sanasto1/tietomalli",
+        "https://teemualaluusua.github.io/sanasto1/matemaattinen malli"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/simulointi",
+        "https://teemualaluusua.github.io/sanasto1/järjestelmä"
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/mappaus",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "vastaavuusmäärittely",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "mappning",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "mapping",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "mappaus",
+          "@language": "fi",
+          "termType": "Synonyymi"
+        },
+        {
+          "@value": "semanttinen mappaus",
+          "@language": "fi",
+          "termType": "Synonyymi"
+        },
+        {
+          "@value": "semantisk mappning",
+          "@language": "sv",
+          "termType": "Synonyymi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Yhteen joukkoon kuuluvan elementin rinnastaminen\ntoisen joukon elementtiin semanttisen vastaavuuden\nperusteella.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Koppling av ett element i en mängd till ett element\ni en annan mängd baserat på semantisk motsvarighet.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Assigning an element in one set to an element in\nanother set through semantic correspondence.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Vastaavuusmäärittelyssä selvitetään kahden eri\njoukon elementtien väliset semanttiset vastaavuudet.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Vid mappning fastställs de semantiska\nmotsvarigheterna mellan element i två olika mängder.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Mapping establishes the semantic correspondence\nbetween elements of two different sets.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org/standard/59743.html"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/semanttinen vastaavuus"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/ontologia",
+        "https://teemualaluusua.github.io/sanasto1/tietomalli",
+        "https://teemualaluusua.github.io/sanasto1/skeema"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/mbom",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -1428,6 +2050,71 @@
       },
       "dcterms:modified": {
         "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/metatietoskeema",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "metatietoskeema",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "metadataschema",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "metadata schema",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "looginen kaavio, joka osoittaa metatiedon elementtien väliset suhteet",
+          "@language": "fi"
+        },
+        {
+          "@value": "logiskt schema som visar relationerna mellan metadataelement",
+          "@language": "sv"
+        },
+        {
+          "@value": "logical plan showing the relationships between metadata elements",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Metatietoskeema määrittelee metatiedon elementit,\nniiden merkitykset ja rakenteen, ja sitä käytetään\nmetatiedon järjestämiseen ja yhteentoimivuuden\ntukemiseen tietojärjestelmissä.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ett metadataschema anger metadataelementen,\nderas betydelse och struktur och används för\natt organisera metadata och stödja\ninteroperabilitet mellan informationssystem.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "A metadata schema specifies metadata elements,\ntheir meaning and structure, and supports\norganization and interoperability of metadata\nin information systems.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        }
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-05T12:00",
         "@type": "xsd:dateTime"
       }
     },
@@ -1523,6 +2210,281 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/RDF-kolmikko",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "RDF-kolmikko",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "RDF-trippel",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "RDF triple",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "RDF:ssä käytetty lauseen esitystapa, joka koostuu\nsubjektista, predikaatista ja objektista.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Representation av ett påstående i RDF som består\nav subjekt, predikat och objekt.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Representation of a statement in RDF consisting\nof a subject, predicate and object.\n",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "RDF-kolmikko muodostaa RDF-tiedon perusrakenteen.\nSubjekti ja objekti kuvaavat resursseja ja\npredikaatti niiden välistä suhdetta.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "En RDF-trippel utgör den grundläggande strukturen\nför RDF-data. Subjekt och objekt representerar\nresurser och predikat beskriver relationen mellan dem.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "An RDF triple is the fundamental structure of RDF\ndata. The subject and object denote resources,\nwhile the predicate expresses the relationship\nbetween them.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/RDF"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/ontologia",
+        "https://teemualaluusua.github.io/sanasto1/semanttinen web",
+        "https://teemualaluusua.github.io/sanasto1/SPARQL"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/RDF",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "Resource Description Framework",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Resource Description Framework",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "resource description framework",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "RDF",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "RDF",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "RDF",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "viitekehys, jonka avulla luodaan loogisia kieliä, jotka ovat yhteentoimivia semanttisessa webissa",
+          "@language": "fi"
+        },
+        {
+          "@value": "ramverk för att konstruera logiska språk som kan fungera tillsammans i den semantiska webben",
+          "@language": "sv"
+        },
+        {
+          "@value": "framework for constructing logical languages that can work together in the Semantic Web",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "RDF on standardimalli datan vaihtamiseen webissä. Se mahdollistaa\neri lähteistä tulevan datan yhdistämisen myös silloin, kun käytetyt\nskeemat eroavat toisistaan, sekä tukee skeemojen kehittymistä\najan myötä ilman että kaikkia datan käyttäjiä tarvitsee muuttaa.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "RDF är en standardmodell för datautbyte på webben. Den möjliggör\nsammanslagning av data från olika källor även när de underliggande\nschemana skiljer sig åt och stödjer utveckling av scheman över tid\nutan att alla datakonsumenter behöver ändras.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "RDF is a standard model for data interchange on the Web. It enables\ndata from different schemas to be merged and supports schema\nevolution over time without requiring all data consumers to change.\n",
+          "@language": "en"
+        },
+        {
+          "@value": "RDF laajentaa webin linkkirakennetta käyttämällä URI-tunnisteita\nnimeämään sekä linkin kohteet että niiden välisen suhteen.\nTämä esitetään yleensä kolmikkomallina (triple): subjekti,\npredikaatti ja objekti.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "RDF utvidgar webbens länkstruktur genom att använda URI:er\nför att namnge relationen mellan resurser samt länkens båda\nändpunkter. Detta uttrycks vanligtvis som en trippel:\nsubjekt, predikat och objekt.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "RDF extends the linking structure of the Web by using URIs to name\nrelationships between resources. These relationships are typically\nrepresented as triples consisting of a subject, predicate and object.\n",
+          "@language": "en"
+        },
+        {
+          "@value": "RDF:n tietorakenne muodostaa suunnatun ja nimetyillä kaarilla\nvarustetun graafin, jossa solmut kuvaavat resursseja ja kaaret\nniiden välisiä suhteita. RDF toimii perustana useille\nsemanttisen webin teknologioille, kuten OWL:lle ja SKOS:lle.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "RDF:s datastruktur bildar en riktad graf med märkta kanter,\ndär noder representerar resurser och kanter representerar\nnamngivna relationer mellan dem. RDF utgör grunden för flera\ntekniker inom den semantiska webben, såsom OWL och SKOS.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "RDF data forms a directed labeled graph in which nodes represent\nresources and edges represent named relationships. RDF is the\nfoundation for other Semantic Web technologies such as OWL and SKOS.\n",
+          "@language": "en"
+        },
+        {
+          "@value": "RDF:n avulla XML:ää voidaan käyttää myös datan\nkuvaamiseen eikä pelkästään dokumenttien esittämiseen.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "RDF gör det möjligt att använda XML för att beskriva\ndata och inte enbart dokument.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "RDF enables XML to be used for describing data rather\nthan only documents.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        },
+        {
+          "@value": "W3C RDF Overview",
+          "@language": "en",
+          "@id": "https://www.w3.org/RDF/"
+        }
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/ontologia",
+        "https://teemualaluusua.github.io/sanasto1/semanttinen web",
+        "https://teemualaluusua.github.io/sanasto1/SPARQL",
+        "https://teemualaluusua.github.io/sanasto1/OWL",
+        "https://teemualaluusua.github.io/sanasto1/SKOS"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/säilytysformaatti",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "säilytysformaatti",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "lagringsformat",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "storage format",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "dataformaatti, jossa digitaalista dataa säilytetään tietokoneella tai pitkäaikaiseen varastointiin tarkoitetussa tietopankissa",
+          "@language": "fi"
+        },
+        {
+          "@value": "dataformat där digital data lagras i en dators primärminne eller i ett arkiv för långtidslagring",
+          "@language": "sv"
+        },
+        {
+          "@value": "data format for the hosting of digital data in the main store of a computer or in a long-term storage data repository",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Säilytysformaatti määrittelee, miten data\ntallennetaan ja säilytetään tietojärjestelmissä\ntai pitkäaikaissäilytyksessä.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ett lagringsformat anger hur data lagras\noch bevaras i informationssystem eller\ni långtidslagring.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "A storage format specifies how digital\ndata is stored and preserved in computer\nsystems or long-term storage repositories.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org/standard/59743.html"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/dataformaatti"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/tiedostoformaatti",
+        "https://teemualaluusua.github.io/sanasto1/tiedonsiirtoformaatti"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/skos",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -1607,6 +2569,149 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/tiedon louhinta",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "tiedon louhinta",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "datautvinning",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "data mining",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "tietokoneperusteiset tiedonhakutoimenpiteet, joiden avulla tunnistetaan malleja analysoimalla kvantitatiivista dataa eri näkökulmista ja ulottuvuuksista, kategorisoidaan sitä ja tehdään yhteenvetoja potentiaalisista suhteista ja vaikutuksista",
+          "@language": "fi"
+        },
+        {
+          "@value": "datorbaserad process för informationssökning och analys där mönster identifieras genom att analysera kvantitativa data från olika perspektiv och dimensioner, kategorisera dem och sammanfatta potentiella samband och effekter",
+          "@language": "sv"
+        },
+        {
+          "@value": "computational search and retrieval process that identifies patterns by analysing quantitative data from different perspectives and dimensions, categorizing it, and summarizing potential relationships and impacts",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Tiedon louhintaa käytetään esimerkiksi suurten\ntietoaineistojen analysoinnissa, ennusteiden\ntekemisessä sekä piilevien riippuvuuksien\ntunnistamisessa datasta.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Datautvinning används till exempel för analys\nav stora datamängder, för att göra prognoser\noch för att identifiera dolda samband i data.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Data mining is commonly used to analyse large\ndatasets, discover hidden patterns and support\npredictive analytics.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/data-analytiikka"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/big-data",
+        "https://teemualaluusua.github.io/sanasto1/koneoppiminen",
+        "https://teemualaluusua.github.io/sanasto1/tilastollinen analyysi"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/tietokanta",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "tietokanta",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "databas",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "database",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "kokoelma koneluettavaa tietoa, joka on järjestetty niin, että siihen on helppo pääsy ja sitä on helppo hallita ja päivittää",
+          "@language": "fi"
+        },
+        {
+          "@value": "samling maskinläsbar information organiserad så att den lätt kan nås, hanteras och uppdateras",
+          "@language": "sv"
+        },
+        {
+          "@value": "collection of machine-readable information organized so that it can be easily accessed, managed and updated",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Tietokanta on yleensä hallittu tietovaranto,\njota ylläpidetään tietokannanhallintajärjestelmän\n(DBMS) avulla.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "En databas är vanligtvis ett informationslager\nsom hanteras med hjälp av ett databashanteringssystem\n(DBMS).\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "A database is typically maintained using a\ndatabase management system (DBMS).\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        }
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/tietokannanhallintajärjestelmä",
+        "https://teemualaluusua.github.io/sanasto1/tietovaranto",
+        "https://teemualaluusua.github.io/sanasto1/tietomalli"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/tietopankki",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -1671,6 +2776,153 @@
         "https://teemualaluusua.github.io/sanasto1/tietovaranto",
         "https://teemualaluusua.github.io/sanasto1/tietokanta",
         "https://teemualaluusua.github.io/sanasto1/tietovarasto"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/tietue",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "tietue",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "post",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "record",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "dokumentin osa tai dokumentti, joka sisältää rakenteellisen ja sisäisesti järjestetyn joukon itsenäistä mutta toisiinsa liittyvää dataa, joka koskee yhtä henkilöä tai muuta oliota ja joka on valittu ja esitetty tiettyä tarkoitusta varten",
+          "@language": "fi"
+        },
+        {
+          "@value": "del av ett dokument eller dokument som innehåller en strukturerad och internt organiserad uppsättning självständiga men relaterade data om en person eller annat objekt, valda och presenterade för ett specifikt syfte",
+          "@language": "sv"
+        },
+        {
+          "@value": "part of a document or document containing a structured and internally organized set of self-contained but related data on one person or other object, selected and presented for a predefined specific purpose",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Tietue koostuu yleensä useista kentistä,\njotka kuvaavat tietyn kohteen ominaisuuksia.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "En post består vanligtvis av flera fält\nsom beskriver egenskaper hos ett visst objekt.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "A record typically consists of several\nfields describing attributes of a given object.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/tietokanta"
+      ],
+      "skos:narrower": [
+        "https://teemualaluusua.github.io/sanasto1/kenttä"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/tietokohde",
+        "https://teemualaluusua.github.io/sanasto1/tietorakenne"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-05T12:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/vaihtoformaatti",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "vaihtoformaatti",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "utbytesformat",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "exchange format",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "koneluettava dataformaatti, jonka avulla tieto esitetään sellaisessa muodossa, jossa sitä voidaan vaihtaa eri sovellusten välillä",
+          "@language": "fi"
+        },
+        {
+          "@value": "maskinläsbart dataformat som används för att representera information i en form som möjliggör utbyte mellan olika applikationer",
+          "@language": "sv"
+        },
+        {
+          "@value": "machine-readable data format for representing information that is intended to facilitate exchange of the information between different applications",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Vaihtoformaatteja käytetään tietojen siirtämiseen\neri tietojärjestelmien tai ohjelmistojen välillä\nyhteentoimivuuden varmistamiseksi.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Utbytesformat används för att överföra information\nmellan olika informationssystem eller programvara\nför att möjliggöra interoperabilitet.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Exchange formats are used to transfer information\nbetween different information systems or software\napplications to enable interoperability.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 5127:2022",
+          "@language": "en",
+          "@id": "https://www.iso.org/standard/59743.html"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/dataformaatti"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/tiedostoformaatti",
+        "https://teemualaluusua.github.io/sanasto1/säilytysformaatti"
       ],
       "dcterms:created": {
         "@value": "2026-03-05T12:00",
