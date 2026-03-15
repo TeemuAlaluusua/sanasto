@@ -1550,6 +1550,79 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/fyysinen_tietomalli",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "fyysinen tietomalli",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "fysisk datamodell",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "physical data model",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "tietomalli, joka kuvaa tietojen tallentamisen teknisellä tasolla tietokantarakenteena",
+          "@language": "fi"
+        },
+        {
+          "@value": "datamodell som beskriver lagringen av data på teknisk nivå som en databasstruktur",
+          "@language": "sv"
+        },
+        {
+          "@value": "data model describing the storage of data at a technical level as a database structure",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Fyysinen tietomalli on loogisesta tietomallista\ntarkemmalle tasolle viety kuvaus, jossa otetaan\nkantaa tietokannan käytännön tekniseen toteutukseen\nvalitulla teknologialla.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "En fysisk datamodell är en mer detaljerad\nbeskrivning av en logisk datamodell där den\npraktiska tekniska implementeringen i en databas\nmed vald teknologi specificeras.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "A physical data model is a more detailed\nrepresentation of a logical data model specifying\nthe practical technical implementation in a\ndatabase using a chosen technology.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "Suomi.fi-sanasto – RY-mallit",
+          "@language": "fi",
+          "@id": "https://iri.suomi.fi/terminology/rymallit/c14"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/tietomalli"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/looginen tietomalli",
+        "https://teemualaluusua.github.io/sanasto1/käsitemalli",
+        "https://teemualaluusua.github.io/sanasto1/tietokanta"
+      ],
+      "dcterms:created": {
+        "@value": "2025-12-23T14:08",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/informaatio",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -2447,6 +2520,80 @@
       ],
       "dcterms:created": {
         "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/mallinnus",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "mallinnus",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "modellering",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "modelling",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "prosessi, jossa kohteesta muodostetaan malli",
+          "@language": "fi"
+        },
+        {
+          "@value": "process där en modell skapas av ett objekt eller fenomen",
+          "@language": "sv"
+        },
+        {
+          "@value": "process of creating a model of an object or phenomenon",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Mallinnusta käytetään esimerkiksi järjestelmien,\nprosessien, rakenteiden tai tietojen kuvaamiseen.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Modellering används till exempel för att beskriva\nsystem, processer, strukturer eller data.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Modelling is used to describe systems, processes,\nstructures or data.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "Suomi.fi-sanasto – RY-mallit",
+          "@language": "fi",
+          "@id": "https://iri.suomi.fi/terminology/rymallit/c1"
+        }
+      ],
+      "skos:narrower": [
+        "https://teemualaluusua.github.io/sanasto1/tietomallinnus",
+        "https://teemualaluusua.github.io/sanasto1/informaatiomallinnus"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/malli",
+        "https://teemualaluusua.github.io/sanasto1/tietomalli",
+        "https://teemualaluusua.github.io/sanasto1/informaatiomalli"
+      ],
+      "dcterms:created": {
+        "@value": "2025-12-23T14:08",
         "@type": "xsd:dateTime"
       },
       "dcterms:modified": {
