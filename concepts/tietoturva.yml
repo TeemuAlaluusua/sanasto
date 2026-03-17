@@ -4,7 +4,7 @@ schemeId: []
 
 terms:
 - lang: fi
-  label: Tietoturva
+  label: tietoturva
   type: Suositettava termi
 
 - lang: sv
@@ -18,7 +18,7 @@ terms:
 definitions:
 - lang: fi
   text: |
-    Tietoturvalla (engl. information security) tarkoitetaan fyysistä ja digitaalista
+    Tietoturvalla tarkoitetaan fyysistä ja digitaalista
     tiedon suojaamista. Fyysinen suojaaminen voi pitää sisällään toimenpiteitä, jotka
     suojaavat tietokoneita varastavalta murtovarkaalta. Digitaalinen suojaaminen eli
     kyberturvallisuus (engl. cyber security) tarkoittaa suojautumista verkon kautta

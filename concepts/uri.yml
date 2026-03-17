@@ -4,25 +4,25 @@ schemeId: []
 
 terms:
 - lang: fi
-  label: URI
+  label: Uniform Resource Identifier
   type: Suositettava termi
 - lang: fi
-  label: Uniform Resource Identifier
-  type: Suositettava termi
-
-- lang: sv
   label: URI
-  type: Suositettava termi
+  type: Lyhenne
+
 - lang: sv
   label: Uniform Resource Identifier
   type: Suositettava termi
-
-- lang: en
+- lang: sv
   label: URI
-  type: Suositettava termi
+  type: Lyhenne
+
 - lang: en
   label: Uniform Resource Identifier
   type: Suositettava termi
+- lang: en
+  label: URI
+  type: Lyhennei
 
 definitions:
 - lang: fi

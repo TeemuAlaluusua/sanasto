@@ -4,15 +4,15 @@ schemeId: []
 
 terms:
 - lang: fi
-  label: Yksilöintitieto
+  label: yksilöintitieto
   type: Suositettava termi
 
 - lang: sv
-  label: Identifieringsuppgift
+  label: identifieringsuppgift
   type: Suositettava termi
 
 - lang: en
-  label: Identifying information
+  label: identifying information
   type: Suositettava termi
 
 definitions:

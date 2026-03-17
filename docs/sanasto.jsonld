@@ -7,16 +7,6 @@
   },
   "@graph": [
     {
-      "@id": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
-      "@type": "skos:ConceptScheme",
-      "skos:prefLabel": [
-        {
-          "@value": "rakentamisen-tieto-ja-informaatiomallit",
-          "@language": "fi"
-        }
-      ]
-    },
-    {
       "@id": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "@type": "skos:ConceptScheme",
       "skos:prefLabel": [
@@ -1659,7 +1649,7 @@
     {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/edi",
       "@type": "skos:Concept",
-      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/rakentamisen-tieto-ja-informaatiomallit",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
           "@value": "electronic data interchange",
@@ -6186,7 +6176,7 @@
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
-          "@value": "Tietoturva",
+          "@value": "tietoturva",
           "@language": "fi",
           "termType": "Suositettava termi"
         },
@@ -6203,7 +6193,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Tietoturvalla (engl. information security) tarkoitetaan fyysistä ja digitaalista\ntiedon suojaamista. Fyysinen suojaaminen voi pitää sisällään toimenpiteitä, jotka\nsuojaavat tietokoneita varastavalta murtovarkaalta. Digitaalinen suojaaminen eli\nkyberturvallisuus (engl. cyber security) tarkoittaa suojautumista verkon kautta\ntulevilta hyökkäyksiltä ja tietomurroilta. Tietoturvalla on kolme päätavoitetta:\nTiedon luottamuksellisuuden, eheyden ja saatavuuden varmistaminen.\n\n1 Luottamuksellisuus (engl. confidentiality) tarkoittaa, ettei tieto saa vuotaa\nulkopuolisille.\n\n2 Eheys (engl. integrity) tarkoittaa, että järjestelmät ovat luotettavia ja että\ntieto säilyy muuttumattomana ja on ajantasaisesti varmuuskopioitu.\n\n3 Saatavuus (engl. availability) tarkoittaa pääsyä tietoon silloin, kun sitä tarvitaan.\n",
+          "@value": "Tietoturvalla tarkoitetaan fyysistä ja digitaalista\ntiedon suojaamista. Fyysinen suojaaminen voi pitää sisällään toimenpiteitä, jotka\nsuojaavat tietokoneita varastavalta murtovarkaalta. Digitaalinen suojaaminen eli\nkyberturvallisuus (engl. cyber security) tarkoittaa suojautumista verkon kautta\ntulevilta hyökkäyksiltä ja tietomurroilta. Tietoturvalla on kolme päätavoitetta:\nTiedon luottamuksellisuuden, eheyden ja saatavuuden varmistaminen.\n\n1 Luottamuksellisuus (engl. confidentiality) tarkoittaa, ettei tieto saa vuotaa\nulkopuolisille.\n\n2 Eheys (engl. integrity) tarkoittaa, että järjestelmät ovat luotettavia ja että\ntieto säilyy muuttumattomana ja on ajantasaisesti varmuuskopioitu.\n\n3 Saatavuus (engl. availability) tarkoittaa pääsyä tietoon silloin, kun sitä tarvitaan.\n",
           "@language": "fi"
         },
         {
@@ -6388,18 +6378,8 @@
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
-          "@value": "URI",
-          "@language": "fi",
-          "termType": "Suositettava termi"
-        },
-        {
           "@value": "Uniform Resource Identifier",
           "@language": "fi",
-          "termType": "Suositettava termi"
-        },
-        {
-          "@value": "URI",
-          "@language": "sv",
           "termType": "Suositettava termi"
         },
         {
@@ -6408,14 +6388,26 @@
           "termType": "Suositettava termi"
         },
         {
-          "@value": "URI",
-          "@language": "en",
-          "termType": "Suositettava termi"
-        },
-        {
           "@value": "Uniform Resource Identifier",
           "@language": "en",
           "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "URI",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "URI",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "URI",
+          "@language": "en",
+          "termType": "Lyhennei"
         }
       ],
       "skos:definition": [
@@ -6562,7 +6554,7 @@
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
-          "@value": "Valintalista",
+          "@value": "valintalista",
           "@language": "fi",
           "termType": "Suositettava termi"
         },
@@ -7025,17 +7017,17 @@
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
-          "@value": "Yksilöinti",
+          "@value": "yksilöinti",
           "@language": "fi",
           "termType": "Suositettava termi"
         },
         {
-          "@value": "Identifiering",
+          "@value": "identifiering",
           "@language": "sv",
           "termType": "Suositettava termi"
         },
         {
-          "@value": "Identification",
+          "@value": "identification",
           "@language": "en",
           "termType": "Suositettava termi"
         }
@@ -7099,17 +7091,17 @@
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
-          "@value": "Yksilöintitieto",
+          "@value": "yksilöintitieto",
           "@language": "fi",
           "termType": "Suositettava termi"
         },
         {
-          "@value": "Identifieringsuppgift",
+          "@value": "identifieringsuppgift",
           "@language": "sv",
           "termType": "Suositettava termi"
         },
         {
-          "@value": "Identifying information",
+          "@value": "identifying information",
           "@language": "en",
           "termType": "Suositettava termi"
         }
