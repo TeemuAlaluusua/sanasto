@@ -7359,6 +7359,83 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/tuotantomuoto",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "tuotantomuoto",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "produktionsform",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "production strategy",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Tuotteiden ja materiaalien valmistustapaa kuvaava luokittelu, joka perustuu varasto- ja tilausohjautuviin tuotantoprosesseihin tilauspisteen mukaisesti.",
+          "@language": "fi"
+        },
+        {
+          "@value": "Klassificering av hur produkter och material tillverkas baserat på lager- och kundorderstyrda produktionsprocesser enligt orderpunkt.",
+          "@language": "sv"
+        },
+        {
+          "@value": "Classification describing how products and materials are manufactured based on stock-driven and order-driven production processes according to the order penetration point.",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Tuotantomuodot eroavat toisistaan imu- ja työntöohjauksen sekä varasto- ja tilausohjauksen perusteella, mikä näkyy tuotteiden saatavuudessa.\nVarasto-ohjautuvia tuotteita voidaan noutaa suoraan varastosta, kun taas tilausohjautuvat tuotteet valmistetaan asiakastilauksen perusteella.\nTuotantomuodot voidaan jakaa tilauspisteen (OPP, Order Penetration Point) mukaan viiteen kategoriaan:\n1 Varasto-ohjautuva tuotanto (MTS)\n2 Asiakasohjautuva kokoonpano (ATO)\n3 Tilausohjautuva tuotanto (MTO)\n4 Asiakasohjautuva tuotesuunnittelu (ETO)\n5 Asiakasohjautuva tuotekehitys (DTO).\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Produktionsformer skiljer sig åt genom drag- och tryckstyrning samt lager- och kundorderstyrning, vilket återspeglas i produkternas tillgänglighet.\nLagerstyrda produkter kan tas direkt från lager, medan kundorderstyrda produkter tillverkas efter beställning.\nProduktionsformer kan delas in enligt orderpunkten (OPP, Order Penetration Point) i fem kategorier:\n1 Lagerstyrd produktion (MTS)\n2 Kundorderstyrd montering (ATO)\n3 Kundorderstyrd produktion (MTO)\n4 Kundorderstyrd konstruktion (ETO)\n5 Kundorderstyrd produktutveckling (DTO).\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Production strategies differ based on push and pull control as well as stock-driven and order-driven approaches, which is reflected in product availability.\nStock-driven products can be taken directly from inventory, while order-driven products are manufactured upon customer request.\nProduction strategies can be categorized according to the order penetration point (OPP) into five categories:\n1 Make-to-stock (MTS)\n2 Assemble-to-order (ATO)\n3 Make-to-order (MTO)\n4 Engineer-to-order (ETO)\n5 Develop-to-order (DTO).\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "Alaluusua 2023",
+          "@language": "fi",
+          "@id": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content"
+        },
+        {
+          "@value": "ISO 15489-1:2017",
+          "@language": "fi",
+          "@id": "https://www.iso.org/"
+        }
+      ],
+      "skos:narrower": [
+        "https://teemualaluusua.github.io/sanasto1/make-to-stock",
+        "https://teemualaluusua.github.io/sanasto1/assemble-to-order",
+        "https://teemualaluusua.github.io/sanasto1/make-to-order",
+        "https://teemualaluusua.github.io/sanasto1/engineer-to-order",
+        "https://teemualaluusua.github.io/sanasto1/develop-to-order"
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-19T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/ubl",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
