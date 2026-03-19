@@ -4823,6 +4823,279 @@
       ]
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/mrp",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "materiaalitarvelaskenta",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "materialbehovsplanering",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Manufacturing Resource Planning",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "MRP",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "MRP",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "MRP",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "MRP-ohjelmistosovellus, joka ohjaa ja aikatauluttaa materiaalivirtoja tuotannon vaatimusten mukaisesti.",
+          "@language": "fi"
+        },
+        {
+          "@value": "MRP-programvaruapplikation som styr och schemalägger materialflöden enligt produktionskrav.",
+          "@language": "sv"
+        },
+        {
+          "@value": "Software application (MRP) that controls and schedules material flows according to production requirements.",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Materiaalitarvelaskenta (MRP) ohjaa materiaalien hankintaa ja tuotannon ajoitusta tuotantosuunnitelmien perusteella.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Materialbehovsplanering (MRP) styr materialanskaffning och produktionsplanering baserat på produktionsplaner.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Manufacturing Resource Planning (MRP) supports material procurement and production scheduling based on production plans.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO 10303-240:2005",
+          "@language": "fi",
+          "@id": "https://www.iso.org/"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/tuotannonohjaus"
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-19T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/mto",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "tilausohjautuva tuotanto",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "kundorderstyrd produktion",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Make-to-order",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "MTO",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "MTO",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "MTO",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "MTO-tuotantomuoto, jossa tuotteet valmistetaan asiakaskohtaisten tilausten perusteella ennalta määriteltyjen tuotesuunnitelmien mukaisesti.",
+          "@language": "fi"
+        },
+        {
+          "@value": "MTO-produktionsform där produkter tillverkas utifrån kundspecifika beställningar enligt fördefinierade produktplaner.",
+          "@language": "sv"
+        },
+        {
+          "@value": "Production strategy (MTO) in which products are manufactured based on customer-specific orders according to predefined product designs.",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "MTO-tuotteet ovat usein pitkälti kustomoituja ja niiden tuotantoajat ovat MTS-tuotteita pidempiä, koska tuotanto aloitetaan tilauksesta.\nTuotantomuotoa käytetään, kun tuotevalikoima on laaja ja yksittäisten tuotteiden kysyntä on vähäistä.\nVähäisen kysynnän vuoksi tuotteet ovat tyypillisesti kalliimpia kuin MTS-tuotannossa, mutta tarjoavat enemmän joustavuutta ja kustomointimahdollisuuksia.\nRakentamisessa MTO-tuotteet voivat olla lähellä standardoituja tuotteita, mutta sisältää asiakaskohtaisia muokkauksia, kuten värivaihtoehtoja, jotka toteutetaan vasta tilauksen jälkeen.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "MTO-produkter är ofta i hög grad kundanpassade och har längre ledtider än MTS-produkter eftersom produktionen startar först efter beställning.\nProduktionsformen används när produktutbudet är brett och efterfrågan per produkt är låg.\nProdukterna är typiskt dyrare än i MTS-produktion men möjliggör större flexibilitet och kundanpassning.\nInom byggsektorn kan MTO-produkter likna standardprodukter men inkludera kundspecifika variationer, såsom färgval som produceras efter beställning.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "MTO products are often highly customized and have longer lead times than MTS products because production starts upon order.\nThe strategy is used when the product range is wide and demand per item is low.\nProducts are typically more expensive than in MTS production but offer greater flexibility and customization possibilities.\nIn construction, MTO products may resemble standard products but include customer-specific modifications such as color variants produced after ordering.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "Alaluusua 2023",
+          "@language": "fi",
+          "@id": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content"
+        },
+        {
+          "@value": "Peltokorpi 2020",
+          "@language": "fi",
+          "@id": "https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/tuotantostrategia"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/make-to-stock",
+        "https://teemualaluusua.github.io/sanasto1/engineer-to-order"
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-19T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/mts",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "varasto-ohjautuva tuotanto",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "lagerstyrd produktion",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Make-to-stock",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "MTS",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "MTS",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "MTS",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Tuotantomuoto, jossa tuotteita valmistetaan varastoon ennakoidun kysynnän perusteella.",
+          "@language": "fi"
+        },
+        {
+          "@value": "Produktionsform där produkter tillverkas för lager baserat på prognostiserad efterfrågan.",
+          "@language": "sv"
+        },
+        {
+          "@value": "Production strategy in which goods are manufactured for stock based on forecasted demand.",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Varasto-ohjautuvaa tuotantomuotoa käytetään tyypillisesti tuotteissa, joiden kysyntä on ennustettavissa.\nAsiakastilauksen kytkentäpiste sijaitsee lopputuotevarastossa, josta tuotteet toimitetaan asiakkaalle.\nTuotteita valmistetaan sisäisten tuotantotilausten perusteella varastoon, usein suurina määrinä mittakaavaetujen saavuttamiseksi.\nTuotantomuoto sitoo pääomaa, ja valmistusmäärän optimointi riippuu kysyntäennusteiden tarkkuudesta.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Lagerstyrd produktion används typiskt för produkter med förutsägbar efterfrågan.\nKundorderpunkten finns i färdigvarulagret, varifrån produkterna levereras till kunden.\nProdukter tillverkas för lager baserat på interna produktionsorder, ofta i stora volymer för att uppnå stordriftsfördelar.\nProduktionsformen binder kapital och den optimala tillverkningsmängden beror på prognosernas noggrannhet.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Make-to-stock is typically used for products with predictable demand.\nThe customer order decoupling point is located at the finished goods inventory, from which products are delivered to customers.\nProducts are manufactured to stock based on internal production orders, often in large volumes to achieve economies of scale.\nThe production strategy ties up capital, and the optimal production quantity depends on the accuracy of demand forecasts.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "Alaluusua 2023",
+          "@language": "fi",
+          "@id": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/d55ffacc-a2d7-414b-8f8c-313dff01e984/content"
+        },
+        {
+          "@value": "Peltokorpi 2020",
+          "@language": "fi",
+          "@id": "https://www.aalto.fi/sites/default/files/2020-11/Loppuraportti_Tuotetiedon%20hallinta%20ja%20hyo%CC%88dynta%CC%88minen_2.11.2020_0.pdf"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/tuotantostrategia"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/make-to-order",
+        "https://teemualaluusua.github.io/sanasto1/engineer-to-order"
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-19T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/nimiavaruus",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -5008,6 +5281,93 @@
       },
       "dcterms:modified": {
         "@value": "2026-03-14T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/ohjelmointirajapinta",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "Ohjelmointirajapinta",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "programmeringsgränssnitt",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Application programming interface",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "API",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "rajapinta",
+          "@language": "fi",
+          "termType": "Synonyymi"
+        },
+        {
+          "@value": "API",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "API",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Määritelmä, jonka mukaan eri sovellukset voivat tehdä pyyntöjä ja vaihtaa tietoja keskenään.",
+          "@language": "fi"
+        },
+        {
+          "@value": "Definition som gör det möjligt för olika applikationer att göra förfrågningar och utbyta data med varandra.",
+          "@language": "sv"
+        },
+        {
+          "@value": "Definition that allows different applications to make requests and exchange data with each other.",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Rajapinta voi olla pelkkä datarajapinta, jonka kautta voidaan lukea palvelun sisältämää dataa toisiin järjestelmiin.\nEsimerkki ohjelmointirajapinnasta on käyttöjärjestelmän rajapinta, jolla ohjelmat voivat käyttää keskusmuistia ja tiedostoja.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Gränssnittet kan vara ett rent datagränssnitt genom vilket data från en tjänst kan läsas till andra system.\nEtt exempel är operativsystemets gränssnitt som gör det möjligt för program att använda minne och filer.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "The interface may be a data interface through which data from a service can be accessed by other systems.\nAn example is an operating system interface that allows programs to use memory and files.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "Sanastot.suomi.fi",
+          "@language": "fi",
+          "@id": "https://iri.suomi.fi/terminology/yritysdigi/concept-2000"
+        }
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-19T00:00",
         "@type": "xsd:dateTime"
       }
     },
@@ -7405,7 +7765,7 @@
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
       "skos:prefLabel": [
         {
-          "@value": "Versio",
+          "@value": "versio",
           "@language": "fi",
           "termType": "Suositettava termi"
         },
@@ -7436,9 +7796,9 @@
       ],
       "dcterms:source": [
         {
-          "@value": "Sanastot",
+          "@value": "Sanastot,suomi.fi",
           "@language": "fi",
-          "@id": "https://sanastot.suomi.fi/"
+          "@id": "https://iri.suomi.fi/terminology/yti/concept-16"
         }
       ],
       "dcterms:created": {
