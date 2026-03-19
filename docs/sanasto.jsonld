@@ -2203,6 +2203,91 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/finvoice",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "Finvoice",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Finvoice",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Finvoice",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "suomalaisten pankkien määrittelemä verkkolaskun esitystapa",
+          "@language": "fi"
+        },
+        {
+          "@value": "presentationsformat för e-faktura definierat av finländska banker",
+          "@language": "sv"
+        },
+        {
+          "@value": "e-invoice presentation format defined by Finnish banks",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Finvoice on sähköisen laskutuksen muoto, jota käytetään erityisesti\nverkkopankeissa ja pankkien välityspalveluissa.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Suomessa on käytössä myös muita verkkolaskuformaatteja, kuten TEAPPS.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finvoice-version 3.0 avulla voidaan muodostaa Eurooppa-normin (EN 16931)\nmukaisia sähköisiä laskuja.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Lisätiedot ja tekniset kuvaukset ovat saatavilla Finvoice-infosivustolla:\nhttps://www.finvoice.info\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Finvoice är ett format för elektroniska fakturor som används särskilt\ni nätbanker och bankernas förmedlingstjänster.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Finvoice is an electronic invoicing format used especially in online banking\nand bank-mediated services.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "YTI – Finvoice",
+          "@language": "fi",
+          "@id": "https://iri.suomi.fi/terminology/yritysdigi/concept-2006"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/verkkolasku"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/edi",
+        "https://teemualaluusua.github.io/sanasto1/ubl",
+        "https://teemualaluusua.github.io/sanasto1/xml"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-17T00:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-17T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/formaatti",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -5305,6 +5390,84 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/peppol-verkosto",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "PEPPOL-verkosto",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "PEPPOL-nätverk",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "PEPPOL network",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "sähköisten sanomien välitysverkosto, joka perustuu yhteisesti sovituille tiedonsiirtotavoille, tietomalleille ja liiketoimintasäännöille",
+          "@language": "fi"
+        },
+        {
+          "@value": "nätverk för överföring av elektroniska meddelanden som bygger på gemensamt överenskomna överföringssätt, datamodeller och affärsregler",
+          "@language": "sv"
+        },
+        {
+          "@value": "network for exchanging electronic messages based on commonly agreed transmission methods, data models and business rules",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "PEPPOL-verkoston käyttäjät vaihtavat verkostossa keskenään muun muassa\nhankintasanomia, verkkolaskuja ja viranomaisraportteja.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "PEPPOL-verkostoa hallinnoi OpenPEPPOL-yhdistys.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Användare av PEPPOL-nätverket utbyter bland annat upphandlingsmeddelanden,\ne-fakturor och myndighetsrapporter.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "Users of the PEPPOL network exchange procurement messages, e-invoices\nand regulatory reports.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "YTI – PEPPOL-verkosto",
+          "@language": "fi",
+          "@id": "https://iri.suomi.fi/terminology/yritysdigi/concept-2087"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/tiedonsiirtoverkosto"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/peppol",
+        "https://teemualaluusua.github.io/sanasto1/edi",
+        "https://teemualaluusua.github.io/sanasto1/finvoice",
+        "https://teemualaluusua.github.io/sanasto1/ubl"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-17T00:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-17T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/plm",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -6836,6 +6999,104 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/ubl",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "Universal Business Language",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Universal Business Language",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Universal Business Language",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "UBL",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "UBL",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "UBL",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "XML-pohjainen standardi liiketoiminta-asiakirjojen tietojen esittämiseen ja vaihtoon",
+          "@language": "fi"
+        },
+        {
+          "@value": "XML-baserad standard för att representera och utbyta affärsdokument",
+          "@language": "sv"
+        },
+        {
+          "@value": "XML-based standard for representing and exchanging business documents",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "UBL määrittelee yhteisen tietorakenteen ja XML-skeemat asiakirjoille,\nkuten tilauksille, laskuille ja toimitusilmoituksille.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "UBL perustuu uudelleenkäytettäviin tietokomponentteihin (Business Information Entities, BIE)\nja mahdollistaa toimialakohtaiset laajennukset.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "UBL:n tavoitteena on vähentää eri toimialojen välisten tiedonsiirtomuotojen\nmoninaisuutta ja helpottaa järjestelmien välistä yhteentoimivuutta.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "UBL definierar gemensamma datastrukturer och XML-scheman för dokument som\nbeställningar, fakturor och leveransaviseringar.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "UBL defines common data structures and XML schemas for documents such as\norders, invoices and despatch advice.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "ISO/IEC 19845:2015 Information technology — Universal business language version 2.1",
+          "@language": "en",
+          "@id": "https://www.iso.org/obp/ui/en/#iso:std:66370:en"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/vaihtoformaatti"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/edi",
+        "https://teemualaluusua.github.io/sanasto1/xml",
+        "https://teemualaluusua.github.io/sanasto1/tietomalli"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-17T00:00",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-17T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/uda",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
@@ -7332,6 +7593,105 @@
       ],
       "dcterms:created": {
         "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-17T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/xpath",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "XML Path Language",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "XPath",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "XML Path Language",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "XPath",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "XML Path Language",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "XPath",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "lausekieli, jolla osoitetaan ja käsitellään XML- ja JSON-rakenteiden solmuja",
+          "@language": "fi"
+        },
+        {
+          "@value": "uttrycksspråk för att adressera och bearbeta noder i XML- och JSON-strukturer",
+          "@language": "sv"
+        },
+        {
+          "@value": "expression language for addressing and processing nodes in XML and JSON data structures",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "XPath käyttää polkulausekkeita (path expressions), joilla voidaan navigoida\nXML-dokumentin hierarkkisessa rakenteessa.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "XPath toimii tyypillisesti osana muita kieliä, kuten XSLT ja XQuery,\neikä sitä yleensä käytetä itsenäisenä ohjelmointikielenä.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "XPath 3.1 tukee XML:n lisäksi myös JSON-rakenteita sekä tietomallia,\njoka sisältää solmuja, atomisia arvoja, funktioita ja sekvenssejä.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "XPath använder sökuttryck (path expressions) för att navigera i hierarkiska\nXML-strukturer.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "XPath uses path expressions to navigate hierarchical structures of XML documents.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "W3C XPath 3.1 Recommendation",
+          "@language": "en",
+          "@id": "https://www.w3.org/TR/xpath-31/"
+        }
+      ],
+      "skos:broader": [
+        "https://teemualaluusua.github.io/sanasto1/kyselykieli"
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/xml",
+        "https://teemualaluusua.github.io/sanasto1/xquery",
+        "https://teemualaluusua.github.io/sanasto1/xslt",
+        "https://teemualaluusua.github.io/sanasto1/json"
+      ],
+      "dcterms:created": {
+        "@value": "2026-03-17T00:00",
         "@type": "xsd:dateTime"
       },
       "dcterms:modified": {

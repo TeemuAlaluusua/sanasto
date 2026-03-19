@@ -1,0 +1,70 @@
+id: peppol
+status: []
+schemeId: []
+
+terms:
+- lang: fi
+  label: PEPPOL
+  type: Suositettava termi
+
+- lang: fi
+  label: Peppol
+  type: Synonyymi
+
+- lang: sv
+  label: PEPPOL
+  type: Suositettava termi
+
+- lang: en
+  label: Pan European Public eProcurement On-Line
+  type: Suositettava termi
+
+- lang: en
+  label: PEPPOL
+  type: Lyhenne
+
+definitions:
+- lang: fi
+  text: kansainvälinen välittäjäverkosto, jossa sovelletaan OpenPEPPOL-yhdistyksen määrittelemiä sääntöjä verkoston toiminnalle
+
+- lang: sv
+  text: internationellt förmedlingsnätverk där regler fastställda av OpenPEPPOL-föreningen tillämpas
+
+- lang: en
+  text: international network in which rules defined by the OpenPEPPOL association are applied
+
+notes:
+- lang: fi
+  text: |
+    OpenPEPPOL-yhdistys määrittelee verkostossa käytettävät vakioidut
+    liiketoimintaprosessit, liiketoimintasäännöt ja tietomallit.
+
+- lang: sv
+  text: |
+    OpenPEPPOL-föreningen fastställer standardiserade affärsprocesser,
+    affärsregler och datamodeller som används i nätverket.
+
+- lang: en
+  text: |
+    The OpenPEPPOL association defines standardised business processes,
+    business rules and data models used within the network.
+
+sources:
+- lang: fi
+  label: YTI – PEPPOL
+  uri: https://iri.suomi.fi/terminology/yritysdigi/concept-2016
+
+relations:
+  broader:
+  - tiedonsiirtoverkosto
+
+  narrower: []
+
+  related:
+  - edi
+  - ubl
+  - finvoice
+
+metadata:
+  created: 2026-03-17T00:00
+  modified: 2026-03-17T00:00
