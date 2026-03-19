@@ -3756,6 +3756,96 @@
       }
     },
     {
+      "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/loin",
+      "@type": "skos:Concept",
+      "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
+      "skos:prefLabel": [
+        {
+          "@value": "informaatiotarve",
+          "@language": "fi",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "informationsbehov",
+          "@language": "sv",
+          "termType": "Suositettava termi"
+        },
+        {
+          "@value": "Level of Information Need",
+          "@language": "en",
+          "termType": "Suositettava termi"
+        }
+      ],
+      "skos:altLabel": [
+        {
+          "@value": "LOIN",
+          "@language": "fi",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "LOIN",
+          "@language": "sv",
+          "termType": "Lyhenne"
+        },
+        {
+          "@value": "LOIN",
+          "@language": "en",
+          "termType": "Lyhenne"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Viitekehys (LOIN), joka määrittelee informaation laajuuden ja rakeisuuden.",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ramverk (LOIN) som definierar informationens omfattning och detaljeringsgrad.",
+          "@language": "sv"
+        },
+        {
+          "@value": "Framework (LOIN) that defines the extent and granularity of information.",
+          "@language": "en"
+        }
+      ],
+      "skos:note": [
+        {
+          "@value": "Informaatiotarpeen määrittelyn yksi tarkoitus on estää liiallisen informaation toimittaminen.\nRakennustietomallien osalta puhutaan usein kehitystasomäärittelystä (LOD), joka on suunniteltu erityisesti mallipohjaista työskentelyä varten.\nLOIN-termillä pyritään kuvaamaan koko projektin tietosisältöä laajemmin siirtämällä painopistettä metatietoon geometristen ominaisuuksien sijasta.\n",
+          "@language": "fi"
+        },
+        {
+          "@value": "Ett syfte med att definiera informationsbehov är att undvika att leverera för mycket information.\nInom byggnadsinformationsmodeller används ofta begreppet utvecklingsnivå (LOD), som är särskilt avsett för modellbaserat arbete.\nMed termen LOIN eftersträvas att beskriva projektets informationsinnehåll mer heltäckande med större fokus på metadata än på geometriska egenskaper.\n",
+          "@language": "sv"
+        },
+        {
+          "@value": "One purpose of defining information need is to avoid delivering excessive information.\nIn building information modelling, the concept of level of development (LOD) is often used and is intended for model-based workflows.\nThe term LOIN aims to describe the overall information content of a project more broadly by emphasizing metadata over geometric properties.\n",
+          "@language": "en"
+        }
+      ],
+      "dcterms:source": [
+        {
+          "@value": "EN/ISO 19650:2018",
+          "@language": "fi",
+          "@id": "https://www.iso.org/standard/68078.html"
+        },
+        {
+          "@value": "Tomczak 2022",
+          "@language": "fi",
+          "@id": "https://www.buildingsmart.org/methods-to-specify-information-requirements-in-digital-construction-projects/"
+        }
+      ],
+      "skos:related": [
+        "https://teemualaluusua.github.io/sanasto1/level of development"
+      ],
+      "dcterms:created": {
+        "@value": "2026-02-24T17:35",
+        "@type": "xsd:dateTime"
+      },
+      "dcterms:modified": {
+        "@value": "2026-03-19T00:00",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
       "@id": "https://teemualaluusua.github.io/sanasto1/#/concept/lokitiedosto",
       "@type": "skos:Concept",
       "skos:inScheme": "https://teemualaluusua.github.io/sanasto1/sanasto",
